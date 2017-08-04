@@ -27,8 +27,7 @@ class ViewController: UIViewController {
        
         if Int(pickedNumber.text!) == nil {
             answerWord.text = "Please Input Number"
-            timesNumber.text = "\(maxTry+1-countNumber) chances left"
-        
+            timesNumber.text = "\(maxTry+1-countNumber) chances left"        
         }
             
         else if Int(pickedNumber.text!)! > upperNumber  {
@@ -58,12 +57,8 @@ class ViewController: UIViewController {
             
             }
             }
-        
-        
         }
  
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
